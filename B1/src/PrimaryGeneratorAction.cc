@@ -107,10 +107,10 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 
   G4cout
      << G4endl
-     << "The env sizes are:"
+     << "The env sizes are: "
      << envSizeXY << ",   " << envSizeZ << ",   "
      << G4endl
-     << "The random vertex is:"
+     << "The random vertex is: "
      << x0 << ",   " << y0 << ",   " << z0 << ".   \n";
 
   fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
