@@ -54,7 +54,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   // Envelope parameters
   //
   G4double env_sizeXY = 20*cm, env_sizeZ = 30*cm;
-  G4Material* env_mat = nist->FindOrBuildMaterial("G4_WATER");
+  G4Material* env_mat = nist->FindOrBuildMaterial("G4_AIR");
 
   // Option to switch on/off checking of volumes overlaps
   //
@@ -162,12 +162,12 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
 
 // Positioning within the envelope
-G4ThreeVector pos3 = G4ThreeVector(0, 0, 10*cm);
+G4ThreeVector pos3 = G4ThreeVector(0, 0, 0*cm);
 
 // Cylindrical section shape with cut planes
-G4double shape3_rmin = 3.*cm, shape3_rmax = 4.*cm;
-G4double shape3_hz = 3.*cm;  // Half-length, total height = 12 cm
-G4double shape3_phimin = 0.*deg, shape3_phimax = 360.*deg;
+G4double shape3_rmin = 8.*cm, shape3_rmax = 8.1*cm;
+G4double shape3_hz = 15.*cm;  // Half-length
+G4double shape3_phimin = -90.*deg, shape3_phimax = 180.*deg;
 
 G4ThreeVector cut1Normal(0, 0., -3);
 G4ThreeVector cut2Normal(0, 0, 3); 
@@ -180,7 +180,7 @@ auto logicShape3 = new G4LogicalVolume(solidShape3,  // its solid
     "Shape3");                                       // its name
 
 G4RotationMatrix* rotX = new G4RotationMatrix();
-rotX->rotateX(45.*deg);
+rotX->rotateX(0.*deg);
 
 new G4PVPlacement(rotX,  // no rotation
     pos3,                   // at position
