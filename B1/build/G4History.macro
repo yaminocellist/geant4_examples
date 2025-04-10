@@ -24,10 +24,12 @@
 /vis/scene/notifyHandlers scene-0
 /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
 /vis/scene/notifyHandlers scene-0
+/vis/scene/add/hits
+/vis/scene/notifyHandlers
 /vis/scene/endOfEventAction accumulate
 /vis/set/textColour green
 /vis/set/textLayout right
-/vis/scene/add/text2D 0.9 -.9 24 ! ! exampleB1
+/vis/scene/add/text2D 0.9 -.9 24 ! ! MyTrial
 /vis/scene/notifyHandlers
 /vis/set/textLayout
 /vis/set/textColour
@@ -39,19 +41,13 @@
 /vis/scene/notifyHandlers
 /vis/scene/add/date
 /vis/scene/notifyHandlers
-/vis/scene/add/logo2D
-/vis/scene/notifyHandlers
-/vis/scene/add/logo
-/vis/scene/notifyHandlers
 /vis/set/colour red
 /vis/set/lineWidth 2
 /vis/scene/add/frame
 /vis/scene/notifyHandlers
 /vis/set/colour
 /vis/set/lineWidth
-/vis/scene/add/text 0 6 -4 cm 18 4 4 Shape1
-/vis/scene/notifyHandlers
-/vis/scene/add/text 6 7 10 cm 18 4 4 Shape2
+/vis/scene/add/text 6 8 10 cm 18 4 4 MyShape
 /vis/scene/notifyHandlers
 /vis/geometry/set/visibility World 0 false
 /vis/scene/notifyHandlers
@@ -63,19 +59,5 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
-/run/beamOn 500
-/run/beamOn 500
-/run/beamOn 500
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
-/run/beamOn 100
+/run/beamOn 10
 /run/beamOn 100
