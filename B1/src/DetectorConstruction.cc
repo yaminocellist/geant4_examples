@@ -87,7 +87,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   // Envelope
   //
   auto solidEnv = new G4Box("Envelope",                    // its name
-    0.5 * env_sizeXY, 0.5 * env_sizeXY, 0.5 * env_sizeZ);  // its size
+    1.0 * env_sizeXY, 1.0 * env_sizeXY, 1.0 * env_sizeZ);  // its size
 
   auto logicEnv = new G4LogicalVolume(solidEnv,  // its solid
     env_mat,                                     // its material
@@ -129,73 +129,96 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   //   0,                        // copy number
   //   checkOverlaps);           // overlaps checking
 
-  //
-  // Shape 2
-  //
-  G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
-  G4ThreeVector pos2 = G4ThreeVector(0, -1*cm, 7*cm);
+// //
+// // Shape 3
+// //
+// G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
 
-  // Trapezoid shape
-  G4double shape2_dxa = 12*cm, shape2_dxb = 12*cm;
-  G4double shape2_dya = 10*cm, shape2_dyb = 16*cm;
-  G4double shape2_dz  = 6*cm;
-  auto solidShape2 = new G4Trd("Shape2",  // its name
-    0.5 * shape2_dxa, 0.5 * shape2_dxb, 0.5 * shape2_dya, 0.5 * shape2_dyb,
-    0.5 * shape2_dz);  // its size
+// // Positioning within the envelope
+// G4ThreeVector pos3 = G4ThreeVector(0, 0, 0*cm);
 
-  auto logicShape2 = new G4LogicalVolume(solidShape2,  // its solid
-    shape2_mat,                                        // its material
-    "Shape2");                                         // its name
+// // Cylindrical section shape with cut planes
+// G4double shape3_rmin = 8.*cm, shape3_rmax = 8.1*cm;
+// G4double shape3_hz = 15.*cm;  // Half-length
+// G4double shape3_phimin = -90.*deg, shape3_phimax = 180.*deg;
 
-  // new G4PVPlacement(nullptr,  // no rotation
-  //   pos2,                     // at position
-  //   logicShape2,              // its logical volume
-  //   "Shape2",                 // its name
-  //   logicEnv,                 // its mother  volume
-  //   false,                    // no boolean operation
-  //   0,                        // copy number
-  //   checkOverlaps);           // overlaps checking
+// G4ThreeVector cut1Normal(0, 0., -3);
+// G4ThreeVector cut2Normal(0, 0, 3); 
+
+// auto solidShape3 = new G4CutTubs("Shape3", shape3_rmin, shape3_rmax, shape3_hz, 
+//     shape3_phimin, shape3_phimax, cut1Normal, cut2Normal);
+    
+// auto logicShape3 = new G4LogicalVolume(solidShape3,  // its solid
+//     shape3_mat,                                      // its material
+//     "Shape3");                                       // its name
+
+// G4RotationMatrix* rotX = new G4RotationMatrix();
+// rotX->rotateX(0.*deg);
+
+// new G4PVPlacement(rotX,  // no rotation
+//     pos3,                   // at position
+//     logicShape3,            // its logical volume
+//     "Shape3",               // its name
+//     logicEnv,               // its mother volume
+//     false,                  // no boolean operation
+//     0,                      // copy number
+//     checkOverlaps);         // overlaps checking
 
 //
-// Shape 3
+// Shape 3 - Cuboid
 //
 G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
 
-// Positioning within the envelope
-G4ThreeVector pos3 = G4ThreeVector(0, 0, 0*cm);
-
-// Cylindrical section shape with cut planes
-G4double shape3_rmin = 8.*cm, shape3_rmax = 8.1*cm;
-G4double shape3_hz = 15.*cm;  // Half-length
-G4double shape3_phimin = -90.*deg, shape3_phimax = 180.*deg;
-
-G4ThreeVector cut1Normal(0, 0., -3);
-G4ThreeVector cut2Normal(0, 0, 3); 
-
-auto solidShape3 = new G4CutTubs("Shape3", shape3_rmin, shape3_rmax, shape3_hz, 
-    shape3_phimin, shape3_phimax, cut1Normal, cut2Normal);
-    
-auto logicShape3 = new G4LogicalVolume(solidShape3,  // its solid
-    shape3_mat,                                      // its material
-    "Shape3");                                       // its name
-
+// Size
+G4double shape3_x = 5.0 * cm;
+G4double shape3_y = 5.0 * cm;
+G4double shape3_z = 1.0 * cm;
+// Half-dimensions required by G4Box
+auto solidShape3 = new G4Box("Shape3", shape3_x/2, shape3_y/2, shape3_z/2);
+auto logicShape3 = new G4LogicalVolume(solidShape3,
+                                       shape3_mat,
+                                       "Shape3");
+G4ThreeVector pos3 = G4ThreeVector(0, +10.0*cm, 0);
 G4RotationMatrix* rotX = new G4RotationMatrix();
 rotX->rotateX(0.*deg);
 
-new G4PVPlacement(rotX,  // no rotation
-    pos3,                   // at position
-    logicShape3,            // its logical volume
-    "Shape3",               // its name
-    logicEnv,               // its mother volume
-    false,                  // no boolean operation
-    0,                      // copy number
-    checkOverlaps);         // overlaps checking
+new G4PVPlacement(rotX,             // rotation
+                  pos3,             // position
+                  logicShape3,      // logical volume
+                  "Shape3",         // name
+                  logicEnv,         // mother volume
+                  false,            // no boolean operation
+                  0,                // copy number
+                  checkOverlaps);   // check overlaps
 
+//
+// Shape 2 - Cuboid
+//
+G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
 
-  // Set Shape2 as scoring volume
-  //
-  // fScoringVolume = logicShape2;
+// Size
+G4double shape2_x = 5.0 * cm;
+G4double shape2_y = 5.0 * cm;
+G4double shape2_z = 1.0 * cm;
+// Half-dimensions required by G4Box
+auto solidShape2 = new G4Box("Shape2", shape2_x/2, shape2_y/2, shape2_z/2);
+auto logicShape2 = new G4LogicalVolume(solidShape2,
+                                       shape2_mat,
+                                       "Shape2");
+G4ThreeVector pos2 = G4ThreeVector(0, -10*cm, 0);
+// G4RotationMatrix* rotX = new G4RotationMatrix();
+rotX->rotateX(0.*deg);
 
+new G4PVPlacement(rotX,             // rotation
+                  pos2,             // position
+                  logicShape2,      // logical volume
+                  "Shape2",         // name
+                  logicEnv,         // mother volume
+                  false,            // no boolean operation
+                  0,                // copy number
+                  checkOverlaps);   // check overlaps
+
+  // Set Scoring Volume
   fScoringVolume = logicShape3;
 
   //
