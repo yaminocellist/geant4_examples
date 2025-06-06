@@ -1098,4 +1098,39 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4CutTubs.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4CutTubs.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PVPlacement.hh \
-  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SystemOfUnits.hh
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SystemOfUnits.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/FTFP_BERT.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VModularPhysicsList.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPhysicsConstructor.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsListHelper.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsListOrderingParameter.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ThreadLocalSingleton.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Cache.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4CacheDetails.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Backtrace.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cxxabi.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cxxabi_config.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/execinfo.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/base.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/uuid/uuid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfenv \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fenv.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fenv.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/regex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUPLSplitter.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserPhysicsList.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProductionCutsTable.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialCutsCouple.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProductionCuts.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MCCIndexConversionTable.hh

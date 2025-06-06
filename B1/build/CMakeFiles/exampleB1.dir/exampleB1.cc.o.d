@@ -1132,6 +1132,9 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialCutsCouple.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProductionCuts.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MCCIndexConversionTable.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/FTFP_BERT.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalPhysics.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalParameters.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VisExecutive.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VisManager.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VVisManager.hh \

@@ -917,6 +917,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /Users/yaminocellist/git_repos/Geant4/g
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/TwoVector.h \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/FTFP_BERT.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ASCIITree.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AffineTransform.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AffineTransform.icc \
@@ -1008,6 +1009,8 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /Users/yaminocellist/git_repos/Geant4/g
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4NullModel.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpenGLImmediateX.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpenGLStoredX.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalParameters.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalPhysics.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Orb.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Orb.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OrderedTable.hh \
@@ -2398,6 +2401,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cxxabi_config.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
@@ -2724,6 +2728,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfenv \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
@@ -2731,6 +2736,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
@@ -2741,8 +2747,11 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cxxabi.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fenv.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -2767,6 +2776,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/regex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
@@ -2792,6 +2802,9 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/execinfo.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fenv.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -2808,12 +2821,15 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/base.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/runetype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h \
@@ -2832,6 +2848,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h \
@@ -2869,6 +2886,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
@@ -2891,6 +2909,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h \
@@ -2899,12 +2918,16 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/uuid/uuid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
@@ -2994,6 +3017,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/TwoVector.h \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/FTFP_BERT.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AffineTransform.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AffineTransform.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Allocator.hh \
@@ -3002,11 +3026,14 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AutoLock.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AuxiliaryNavServices.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AuxiliaryNavServices.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Backtrace.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4BlockingList.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4BlockingList.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Box.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Box.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4CSGSolid.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Cache.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4CacheDetails.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ClassificationOfNewTrack.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Cons.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Cons.icc \
@@ -3044,7 +3071,9 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4LogicalVolume.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4LogicalVolume.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4LorentzVector.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MCCIndexConversionTable.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Material.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialCutsCouple.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialPropertiesIndex.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialPropertiesTable.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4MaterialPropertyVector.hh \
@@ -3082,6 +3111,8 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ParticleTable.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ParticleTableIterator.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsFreeVector.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsListHelper.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsListOrderingParameter.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsModelCatalog.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsTable.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PhysicsTable.icc \
@@ -3099,6 +3130,8 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProcessType.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProcessVector.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProcessVector.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProductionCuts.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ProductionCutsTable.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Profiler.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Profiler.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ReferenceCountedHandle.hh \
@@ -3134,6 +3167,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SubEvent.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SubEventTrackStack.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SystemOfUnits.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ThreadLocalSingleton.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Threading.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ThreeVector.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TouchableHandle.hh \
@@ -3163,20 +3197,24 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /Users/yaminocellist/git
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VDigiCollection.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VExternalNavigation.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VHitsCollection.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VModularPhysicsList.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VNavigation.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPVParameterisation.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VParticleChange.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VParticleChange.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPhysicalVolume.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPhysicalVolume.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPhysicsConstructor.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VProcess.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VSolid.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VSolid.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VSteppingVerbose.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VTouchable.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VTrajectory.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUPLSplitter.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserDetectorConstruction.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserEventInformation.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserPhysicsList.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserTrackInformation.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VVolumeMaterialScanner.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Visible.hh \
@@ -8424,6 +8462,8 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /Users/yaminocellist/git_repos
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
+/Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/FTFP_BERT.hh:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
 
 /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VFacet.hh:
@@ -8529,6 +8569,8 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /Users/yaminocellist/git_repos
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
 /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4PseudoScene.hh:
+
+/Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalPhysics.hh:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
@@ -9489,6 +9531,8 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /Users/yaminocellist/git_repos
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
+/Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4OpticalParameters.hh:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 

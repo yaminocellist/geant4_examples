@@ -40,6 +40,7 @@
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4SystemOfUnits.hh"
+#include "FTFP_BERT.hh"
 
 namespace B1
 {
@@ -102,6 +103,31 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0,                        // copy number
     checkOverlaps);           // overlaps checking
 
+
+
+
+G4Element* elH = nist->FindOrBuildElement("H");
+G4Element* elC = nist->FindOrBuildElement("C");
+  G4Material* scintMat = new G4Material("MyScintillator", 1.032*g/cm3, 2);
+scintMat->AddElement(elH, 10);
+scintMat->AddElement(elC, 9);
+
+// Set up properties
+auto MPT = new G4MaterialPropertiesTable();
+
+// Example photon energy spectrum
+const G4int nEntries = 2;
+G4double photonEnergy[nEntries]    = {2.0*eV, 3.5*eV};
+G4double scintSpectrum[nEntries]   = {1.0,     1.0};
+
+MPT->AddProperty("FASTCOMPONENT", photonEnergy, scintSpectrum, nEntries, true);
+MPT->AddConstProperty("SCINTILLATIONYIELD", 10000.0 / MeV);
+MPT->AddConstProperty("RESOLUTIONSCALE", 1.0);
+MPT->AddConstProperty("FASTTIMECONSTANT", 2.1 * ns, true);
+MPT->AddConstProperty("YIELDRATIO", 1.0, true); // All light is fast component
+
+scintMat->SetMaterialPropertiesTable(MPT);
+  
   //
   // Shape 1
   //
@@ -165,7 +191,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 //
 // Shape 3 - Cuboid
 //
-G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_PLASTIC_SC_VINYLTOLUENE");
+// G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_PLASTIC_SC_VINYLTOLUENE");
+G4Material* shape3_mat = scintMat;
 
 // Size
 G4double shape3_x = 5.0 * cm;
@@ -192,7 +219,8 @@ new G4PVPlacement(rotX,             // rotation
 //
 // Shape 2 - Cuboid
 //
-G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_PLASTIC_SC_VINYLTOLUENE");
+// G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_PLASTIC_SC_VINYLTOLUENE");
+G4Material* shape2_mat = scintMat;
 
 // Size
 G4double shape2_x = 5.0 * cm;

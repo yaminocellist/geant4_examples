@@ -60,3 +60,4 @@
 /vis/viewer/refresh
 /vis/verbose warnings
 /tracking/verbose 2
+/run/beamOn 20
