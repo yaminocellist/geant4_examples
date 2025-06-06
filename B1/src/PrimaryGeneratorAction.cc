@@ -63,7 +63,6 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
 
   // Second particle for collision:
   fParticleGun2->SetParticleDefinition(particle2);
-  // fParticleGun2->SetParticleMomentumDirection(G4ThreeVector(0.,0.,-1.));
   fParticleGun2->SetParticleMomentumDirection(G4ThreeVector(0.,-1.,0.));
   fParticleGun2->SetParticleEnergy(4.*GeV);
 }
@@ -126,12 +125,12 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
      << "The random vertex is: "
      << x0 << ",   " << y0 << ",   " << z0 << ".   \n";
 
-  fParticleGun ->SetParticlePosition(G4ThreeVector(x0,y0,z0));
+  // fParticleGun ->SetParticlePosition(G4ThreeVector(x0,y0,z0));
   // fParticleGun2->SetParticlePosition(G4ThreeVector(x0_2,y0_2,z0_2));
   // fParticleGun2->SetParticlePosition(G4ThreeVector(x0,y0,z0_2));
   fParticleGun2->SetParticlePosition(G4ThreeVector(x0,y0_2,z0_2));
 
-  fParticleGun ->GeneratePrimaryVertex(anEvent);
+  // fParticleGun ->GeneratePrimaryVertex(anEvent);
   fParticleGun2->GeneratePrimaryVertex(anEvent);
 }
 

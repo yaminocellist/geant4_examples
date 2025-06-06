@@ -102,33 +102,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0,                        // copy number
     checkOverlaps);           // overlaps checking
 
-  //
-  // Shape 1
-  //
-  G4Material* shape1_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
-  G4ThreeVector pos1 = G4ThreeVector(0, 2*cm, -7*cm);
-
-  // Conical section shape
-  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 2.*cm;
-  G4double shape1_rminb =  0.*cm, shape1_rmaxb = 4.*cm;
-  G4double shape1_hz = 3.*cm;
-  G4double shape1_phimin = 0.*deg, shape1_phimax = 360.*deg;
-  auto solidShape1 = new G4Cons("Shape1", shape1_rmina, shape1_rmaxa, shape1_rminb, shape1_rmaxb,
-    shape1_hz, shape1_phimin, shape1_phimax);
-
-  auto logicShape1 = new G4LogicalVolume(solidShape1,  // its solid
-    shape1_mat,                                        // its material
-    "Shape1");                                         // its name
-
-  // new G4PVPlacement(nullptr,  // no rotation
-  //   pos1,                     // at position
-  //   logicShape1,              // its logical volume
-  //   "Shape1",                 // its name
-  //   logicEnv,                 // its mother  volume
-  //   false,                    // no boolean operation
-  //   0,                        // copy number
-  //   checkOverlaps);           // overlaps checking
-
 // //
 // // Shape 3
 // //
@@ -218,8 +191,35 @@ new G4PVPlacement(rotX,             // rotation
                   0,                // copy number
                   checkOverlaps);   // check overlaps
 
+//
+// Shape 1 - Cuboid as Lead Brick:
+//
+G4Material* shape1_mat = nist->FindOrBuildMaterial("G4_Pb");
+
+// Size
+G4double shape1_x = 10.0 * cm;
+G4double shape1_y = 1.0 * cm;
+G4double shape1_z = 30.0 * cm;
+// Half-dimensions required by G4Box
+auto solidShape1 = new G4Box("Shape1", shape1_x/2, shape1_y/2, shape1_z/2);
+auto logicShape1 = new G4LogicalVolume(solidShape1,
+                                       shape1_mat,
+                                       "Shape1");
+G4ThreeVector pos1 = G4ThreeVector(0, 0, +15.0*cm);
+rotX->rotateX(0.*deg);
+
+new G4PVPlacement(rotX,             // rotation
+                  pos1,             // position
+                  logicShape1,      // logical volume
+                  "Shape1",         // name
+                  logicEnv,         // mother volume
+                  false,            // no boolean operation
+                  0,                // copy number
+                  checkOverlaps);   // check overlaps
+
   // Set Scoring Volume
-  fScoringVolume = logicShape3;
+  fScoringVolumes.insert(logicShape3);
+  fScoringVolumes.insert(logicShape2);
 
   //
   //always return the physical World

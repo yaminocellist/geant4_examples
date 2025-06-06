@@ -32,6 +32,7 @@
 
 #include "G4UserSteppingAction.hh"
 #include "globals.hh"
+#include <set>
 
 class G4LogicalVolume;
 
@@ -53,7 +54,8 @@ class SteppingAction : public G4UserSteppingAction
 
   private:
     EventAction* fEventAction = nullptr;
-    G4LogicalVolume* fScoringVolume = nullptr;
+    // G4LogicalVolume* fScoringVolume = nullptr;
+    std::set<G4LogicalVolume*> fScoringVolumes;
 };
 
 }
