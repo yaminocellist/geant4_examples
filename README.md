@@ -13,4 +13,6 @@ Some useful commands:
     /control/saveHistory mysession.mac
     /vis/viewer/zoom <MULTIPLE>
     /vis/viewer/panTo <x> <y> <unit>
+    /vis/viewer/set/viewpointThetaPhi 120 150
+    /tracking/verbose 2
 ```

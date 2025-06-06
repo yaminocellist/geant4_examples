@@ -59,3 +59,4 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
+/tracking/verbose 2
