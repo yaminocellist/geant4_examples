@@ -54,7 +54,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   // Envelope parameters
   //
-  G4double env_sizeXY = 20*cm, env_sizeZ = 30*cm;
+  G4double env_sizeXY = 60*cm, env_sizeZ = 90*cm;
   G4Material* env_mat = nist->FindOrBuildMaterial("G4_AIR");
 
   // Option to switch on/off checking of volumes overlaps
@@ -88,45 +88,42 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   // Envelope
   //
   auto solidEnv = new G4Box("Envelope",                    // its name
-    1.0 * env_sizeXY, 1.0 * env_sizeXY, 1.0 * env_sizeZ);  // its size
+    0.5 * env_sizeXY, 0.5 * env_sizeXY, 0.5 * env_sizeZ);  // its size
 
-  auto logicEnv = new G4LogicalVolume(solidEnv,  // its solid
-    env_mat,                                     // its material
-    "Envelope");                                 // its name
+  auto logicEnv = new G4LogicalVolume(solidEnv,   // its solid
+                                      env_mat,    // its material
+                                      "Envelope");// its name
 
   new G4PVPlacement(nullptr,  // no rotation
-    G4ThreeVector(),          // at (0,0,0)
-    logicEnv,                 // its logical volume
-    "Envelope",               // its name
-    logicWorld,               // its mother  volume
-    false,                    // no boolean operation
-    0,                        // copy number
-    checkOverlaps);           // overlaps checking
+                    G4ThreeVector(),          // at (0,0,0)
+                    logicEnv,                 // its logical volume
+                    "Envelope",               // its name
+                    logicWorld,               // its mother  volume
+                    false,                    // no boolean operation
+                    0,                        // copy number
+                    checkOverlaps);           // overlaps checking
 
-
-
-
-G4Element* elH = nist->FindOrBuildElement("H");
-G4Element* elC = nist->FindOrBuildElement("C");
+  G4Element* elH = nist->FindOrBuildElement("H");
+  G4Element* elC = nist->FindOrBuildElement("C");
   G4Material* scintMat = new G4Material("MyScintillator", 1.032*g/cm3, 2);
-scintMat->AddElement(elH, 10);
-scintMat->AddElement(elC, 9);
+  // BC412, made of PVT (Polyvinyl toluene):
+  scintMat->AddElement(elH, 10);
+  scintMat->AddElement(elC, 9);
 
-// Set up properties
-auto MPT = new G4MaterialPropertiesTable();
+  // Property settings for Scintillation:
+  auto MPT = new G4MaterialPropertiesTable();
 
-// Example photon energy spectrum
-const G4int nEntries = 2;
-G4double photonEnergy[nEntries]    = {2.0*eV, 3.5*eV};
-G4double scintSpectrum[nEntries]   = {1.0,     1.0};
+  const G4int nEntries = 2;
+  G4double photonEnergy[nEntries]    = {2.0*eV, 3.5*eV};
+  G4double scintSpectrum[nEntries]   = {1.0,     1.0};
 
-MPT->AddProperty("FASTCOMPONENT", photonEnergy, scintSpectrum, nEntries, true);
-MPT->AddConstProperty("SCINTILLATIONYIELD", 10000.0 / MeV);
-MPT->AddConstProperty("RESOLUTIONSCALE", 1.0);
-MPT->AddConstProperty("FASTTIMECONSTANT", 2.1 * ns, true);
-MPT->AddConstProperty("YIELDRATIO", 1.0, true); // All light is fast component
+  MPT->AddProperty("FASTCOMPONENT", photonEnergy, scintSpectrum, nEntries, true);
+  MPT->AddConstProperty("SCINTILLATIONYIELD", 10000.0 / MeV);
+  MPT->AddConstProperty("RESOLUTIONSCALE", 1.0);
+  MPT->AddConstProperty("FASTTIMECONSTANT", 2.1 * ns, true);
+  MPT->AddConstProperty("YIELDRATIO", 1.0, true); // All light is fast component
 
-scintMat->SetMaterialPropertiesTable(MPT);
+  scintMat->SetMaterialPropertiesTable(MPT);
   
   //
   // Shape 1
@@ -152,41 +149,6 @@ scintMat->SetMaterialPropertiesTable(MPT);
                     false,                    // no boolean operation
                     0,                        // copy number
                     checkOverlaps);           // overlaps checking
-
-// //
-// // Shape 3
-// //
-// G4Material* shape3_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
-
-// // Positioning within the envelope
-// G4ThreeVector pos3 = G4ThreeVector(0, 0, 0*cm);
-
-// // Cylindrical section shape with cut planes
-// G4double shape3_rmin = 8.*cm, shape3_rmax = 8.1*cm;
-// G4double shape3_hz = 15.*cm;  // Half-length
-// G4double shape3_phimin = -90.*deg, shape3_phimax = 180.*deg;
-
-// G4ThreeVector cut1Normal(0, 0., -3);
-// G4ThreeVector cut2Normal(0, 0, 3); 
-
-// auto solidShape3 = new G4CutTubs("Shape3", shape3_rmin, shape3_rmax, shape3_hz, 
-//     shape3_phimin, shape3_phimax, cut1Normal, cut2Normal);
-    
-// auto logicShape3 = new G4LogicalVolume(solidShape3,  // its solid
-//     shape3_mat,                                      // its material
-//     "Shape3");                                       // its name
-
-// G4RotationMatrix* rotX = new G4RotationMatrix();
-// rotX->rotateX(0.*deg);
-
-// new G4PVPlacement(rotX,  // no rotation
-//     pos3,                   // at position
-//     logicShape3,            // its logical volume
-//     "Shape3",               // its name
-//     logicEnv,               // its mother volume
-//     false,                  // no boolean operation
-//     0,                      // copy number
-//     checkOverlaps);         // overlaps checking
 
 //
 // Shape 3 - Cuboid
@@ -232,7 +194,6 @@ auto logicShape2 = new G4LogicalVolume(solidShape2,
                                        shape2_mat,
                                        "Shape2");
 G4ThreeVector pos2 = G4ThreeVector(0, -9*cm, 0);
-// G4RotationMatrix* rotX = new G4RotationMatrix();
 rotX->rotateX(0.*deg);
 
 new G4PVPlacement(rotX,             // rotation

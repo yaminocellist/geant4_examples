@@ -1,9 +1,9 @@
 /run/verbose 2
 /run/initialize
 /control/execute vis.mac
-/vis/open OGL 800x800-100+100
+/vis/open OGL 1600x900-100+100
 /vis/sceneHandler/create OGL
-/vis/viewer/create ! ! 800x800-100+100
+/vis/viewer/create ! ! 1600x900-100+100
 /vis/viewer/refresh
 /vis/viewer/set/autoRefresh false
 /vis/verbose errors
@@ -55,7 +55,9 @@
 /vis/scene/notifyHandlers
 /vis/viewer/set/style surface
 /vis/viewer/set/hiddenMarker true
-/vis/viewer/set/viewpointThetaPhi 120 150
+/vis/viewer/set/viewpointThetaPhi 150 160
+/vis/viewer/panTo 0 12 cm
+/vis/viewer/zoom 1.5
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
