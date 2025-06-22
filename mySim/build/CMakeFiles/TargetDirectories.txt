@@ -1,0 +1,4 @@
+/Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/build/CMakeFiles/sim.dir
+/Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/build/CMakeFiles/Simulation.dir
+/Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/build/CMakeFiles/edit_cache.dir
+/Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/build/CMakeFiles/rebuild_cache.dir

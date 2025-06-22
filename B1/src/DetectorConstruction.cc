@@ -114,7 +114,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   auto MPT = new G4MaterialPropertiesTable();
 
   const G4int nEntries = 2;
-  G4double photonEnergy[nEntries]    = {2.0*eV, 3.5*eV};
+  G4double photonEnergy[nEntries]    = {1.5895*eV, 3.5*eV};
   G4double scintSpectrum[nEntries]   = {1.0,     1.0};
 
   MPT->AddProperty("FASTCOMPONENT", photonEnergy, scintSpectrum, nEntries, true);

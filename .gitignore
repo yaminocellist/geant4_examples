@@ -12,3 +12,6 @@ radioactivedecay
 .DS_Store
 .vscode
 B1/build
+extended/*
+!extended/eventgenerator/
+!extended/optical
