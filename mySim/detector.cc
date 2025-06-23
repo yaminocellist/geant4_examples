@@ -29,7 +29,7 @@ G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhi
     man->FillNtupleDColumn(0, 0, posPhoton.x() / mm);  // x in mm
     man->FillNtupleDColumn(0, 1, posPhoton.y() / mm);  // y in mm
     man->FillNtupleDColumn(0, 2, posPhoton.z() / mm);  // z in mm
-    man->FillNtupleIColumn(0, 3, evt;
+    man->FillNtupleIColumn(0, 3, evt);
     man->AddNtupleRow(0);   // Commit row: IMPORTANT!
 
     return true;

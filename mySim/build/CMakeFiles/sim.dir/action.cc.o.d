@@ -923,4 +923,10 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ToolsAnalysisManager.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericAnalysisManager.icc \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericFileManager.hh \
-  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericFileManager.icc
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericFileManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Run.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Profiler.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Profiler.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/PTL/Globals.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/PTL/Types.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/PTL/Utility.hh

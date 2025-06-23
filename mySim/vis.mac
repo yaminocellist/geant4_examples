@@ -1,0 +1,11 @@
+/vis/open OGL 900x900-100+0
+/vis/drawVolume
+/vis/viewer/set/viewpointVector 1 0.8 0.7
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/add/scale 10 cm
+/vis/scene/add/axes
+/vis/scene/add/eventID
+/vis/scene/endOfEventAction accumulate
+/run/initialize
+/run/beamOn 8
