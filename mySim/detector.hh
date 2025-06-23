@@ -2,6 +2,8 @@
 #define DETECTOR_HH 1
 
 #include "G4VSensitiveDetector.hh"
+#include "G4RunManager.hh"
+#include "G4AnalysisManager.hh"
 
 class MySensitiveDetector : public G4VSensitiveDetector {
 public:

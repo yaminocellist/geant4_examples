@@ -1,4 +1,6 @@
 #include "detector.hh"
+#include "G4Event.hh"
+#include "G4SystemOfUnits.hh"
 
 MySensitiveDetector::MySensitiveDetector(G4String name) : G4VSensitiveDetector(name) {}
 
@@ -6,7 +8,7 @@ MySensitiveDetector::~MySensitiveDetector() {}
 
 G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhist) {
     G4Track *track = aStep -> GetTrack();
-    // track -> SetTrackStatus(fStopAndKill);
+    track -> SetTrackStatus(fStopAndKill);
 
     G4StepPoint *preStepPoint = aStep -> GetPreStepPoint();
     G4StepPoint *postStepPoint = aStep -> GetPostStepPoint();
@@ -21,5 +23,14 @@ G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhi
     G4VPhysicalVolume *physVol = touchable -> GetVolume();
     G4ThreeVector posDetector = physVol -> GetTranslation();
     G4cout << "Detector position: " << posDetector << G4endl;
+
+    G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
+    auto man = G4AnalysisManager::Instance();
+    man->FillNtupleDColumn(0, 0, posPhoton.x() / mm);  // x in mm
+    man->FillNtupleDColumn(0, 1, posPhoton.y() / mm);  // y in mm
+    man->FillNtupleDColumn(0, 2, posPhoton.z() / mm);  // z in mm
+    man->FillNtupleIColumn(0, 3, evt;
+    man->AddNtupleRow(0);   // Commit row: IMPORTANT!
+
     return true;
 }

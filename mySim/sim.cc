@@ -29,6 +29,8 @@ int main(int argc, char** argv) {
     UImanager -> ApplyCommand("/vis/viewer/autoRefresh true");
     UImanager -> ApplyCommand("/vis/scene/add/trajectories smooth");
     UImanager -> ApplyCommand("/vis/scene/endOfEventAction accumulate");
+    UImanager -> ApplyCommand("/run/initialize");
+    UImanager -> ApplyCommand("/run/beamOn 5");
 
     ui -> SessionStart();
 

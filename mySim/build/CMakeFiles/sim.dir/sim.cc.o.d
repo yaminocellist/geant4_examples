@@ -1204,6 +1204,66 @@ CMakeFiles/sim.dir/sim.cc.o: \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VReadOutGeometry.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4SensitiveVolumeList.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VSDFilter.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AnalysisManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericAnalysisManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ToolsAnalysisManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VAnalysisManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AnalysisManagerState.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AnalysisVerbose.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4AnalysisUtilities.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VTBaseHnManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4HnInformation.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4BinScheme.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Fcn.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VAnalysisManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4HnManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4BaseAnalysisManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4NtupleBookingManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/ntuple_booking \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/cids \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/cid \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/typedefs \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/forit \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4NtupleBookingManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VNtupleManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VFileManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4BaseFileManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VTHnFileManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TH1ToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnMessenger.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnToolsManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4THnMessenger.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4Tokenizer.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TH2ToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TH3ToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TP1ToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4TP2ToolsManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h1d \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h1 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/b1 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/base_histo \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/histo_data \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/axes \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/axis \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/../eqT \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h2d \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h2 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/b2 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h3d \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/h3 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/b3 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/p1d \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/p1 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/profile_data \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/p2d \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/tools/histo/p2 \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ToolsAnalysisManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericAnalysisManager.icc \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericFileManager.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4GenericFileManager.icc \
   /Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/physics.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VModularPhysicsList.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPhysicsConstructor.hh \
@@ -1247,4 +1307,6 @@ CMakeFiles/sim.dir/sim.cc.o: \
   /Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/generator.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4ParticleGun.hh \
-  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPrimaryGenerator.hh
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/yaminocellist/git_repos/Geant4/geant4_examples/mySim/run.hh \
+  /Users/yaminocellist/git_repos/Geant4/Geant4-11.2.2-Darwin/include/Geant4/G4UserRunAction.hh
