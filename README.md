@@ -16,3 +16,16 @@ Some useful commands:
     /vis/viewer/set/viewpointThetaPhi 120 150
     /tracking/verbose 2
 ```
+
+For DAWN users:
+```bash
+    /vis/open DAWNFILE
+    /vis/scene/create
+    /vis/scene/add/volume
+    /vis/scene/add/trajectories
+    /vis/scene/add/hits
+    /vis/sceneHandler/attach
+    /tracking/storeTrajectory 1
+    /vis/scene/endOfEventAction accumulate
+    /run/beamOn 10
+```
