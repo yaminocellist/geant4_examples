@@ -1,0 +1,16 @@
+/vis/open DAWNFILE
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume
+/vis/viewer/set/viewpointVector 1 0.8 0.7
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+/vis/scene/add/scale 10 cm
+/vis/scene/add/axes
+/vis/scene/add/eventID
+/vis/sceneHandler/attach
+/tracking/storeTrajectory 1
+/vis/scene/endOfEventAction accumulate
+/run/initialize
+/run/beamOn 1
