@@ -1,4 +1,0 @@
-/Users/metron_fanxin_sun/Playground/geant4_examples/mySim/build/CMakeFiles/sim.dir
-/Users/metron_fanxin_sun/Playground/geant4_examples/mySim/build/CMakeFiles/Simulation.dir
-/Users/metron_fanxin_sun/Playground/geant4_examples/mySim/build/CMakeFiles/edit_cache.dir
-/Users/metron_fanxin_sun/Playground/geant4_examples/mySim/build/CMakeFiles/rebuild_cache.dir
