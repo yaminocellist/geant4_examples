@@ -9,6 +9,7 @@ MyRunAction::MyRunAction() {
     man -> CreateNtupleDColumn("fY");
     man -> CreateNtupleDColumn("fZ");
     man -> CreateNtupleIColumn("fEvent");
+    man -> CreateNtupleDColumn("fEnergy");
     man -> FinishNtuple(0);
 }
 

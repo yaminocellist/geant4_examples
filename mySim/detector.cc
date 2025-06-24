@@ -9,6 +9,8 @@ MySensitiveDetector::~MySensitiveDetector() {}
 G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhist) {
     G4Track *track = aStep -> GetTrack();
     track -> SetTrackStatus(fStopAndKill);
+    G4double energy = track->GetTotalEnergy();  // or preStepPoint->GetKineticEnergy();
+    G4cout << "Detector energy: " << energy / eV << G4endl;
 
     G4StepPoint *preStepPoint = aStep -> GetPreStepPoint();
     G4StepPoint *postStepPoint = aStep -> GetPostStepPoint();
@@ -18,11 +20,11 @@ G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhi
 
     const G4VTouchable *touchable = aStep -> GetPreStepPoint() -> GetTouchable();
     G4int copyNo = touchable -> GetCopyNumber();
-    G4cout << "Copy number: " << copyNo << G4endl;
+    // G4cout << "Copy number: " << copyNo << G4endl;
 
     G4VPhysicalVolume *physVol = touchable -> GetVolume();
     G4ThreeVector posDetector = physVol -> GetTranslation();
-    G4cout << "Detector position: " << posDetector << G4endl;
+    // G4cout << "Detector position: " << posDetector << G4endl;
 
     G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
     auto man = G4AnalysisManager::Instance();
@@ -30,6 +32,7 @@ G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhi
     man->FillNtupleDColumn(0, 1, posPhoton.y() / mm);  // y in mm
     man->FillNtupleDColumn(0, 2, posPhoton.z() / mm);  // z in mm
     man->FillNtupleIColumn(0, 3, evt);
+    man->FillNtupleDColumn(0, 4, energy / eV);  // energy in eV
     man->AddNtupleRow(0);   // Commit row: IMPORTANT!
 
     return true;
