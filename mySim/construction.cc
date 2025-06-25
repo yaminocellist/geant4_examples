@@ -61,12 +61,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     mptBC408->AddProperty("ABSLENGTH", energy, absLength, nEntries);
     mptBC408->AddProperty("SCINTILLATIONCOMPONENT1", energy, scintSpectrum, nEntries);
 
-    mptBC408->AddConstProperty("SCINTILLATIONYIELD", 10000./MeV); // number of photons/MeV
+    mptBC408->AddConstProperty("SCINTILLATIONYIELD", 6400./MeV); // number of photons/MeV
     mptBC408->AddConstProperty("RESOLUTIONSCALE", 1.0); // resolution (1.0 = statistical limit)
     mptBC408->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 2.1*ns); // fast decay component
     mptBC408->AddConstProperty("SCINTILLATIONYIELD1", 1.0); // only one component
 
     BC408->SetMaterialPropertiesTable(mptBC408);
+    // Optional: Birks constant (for quenching of high dE/dx)
+    BC408->GetIonisation()->SetBirksConstant(0.126 * mm / MeV); // typical value for polystyrene
 
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
@@ -74,7 +76,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     mptWorld -> AddProperty("RINDEX", energy, rindexWorld, 2);
     worldMat -> SetMaterialPropertiesTable(mptWorld);
 
-    G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
+    G4Box *solidWorld = new G4Box("solidWorld", .5*m, .5*m, .5*m);
 
     G4LogicalVolume *logicWorld = new G4LogicalVolume(solidWorld, 
                                                       worldMat,
