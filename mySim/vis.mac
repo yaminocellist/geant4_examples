@@ -8,4 +8,4 @@
 /vis/scene/add/eventID
 /vis/scene/endOfEventAction accumulate
 /run/initialize
-/run/beamOn 8
+#/run/beamOn 1

@@ -49,7 +49,7 @@ void MyDetectorConstruction::DefineMaterials () {
 }
 
 G4VPhysicalVolume *MyDetectorConstruction::Construct() {
-    G4double xWorld = 0.5*m, yWorld = 0.5*m, zWorld = 0.5*m;
+    G4double xWorld = 0.2*m, yWorld = 0.2*m, zWorld = 0.2*m;
     solidWorld = new G4Box("solidWorld", xWorld, yWorld, zWorld);
 
     logicWorld = new G4LogicalVolume(solidWorld, 
@@ -64,12 +64,14 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
                                   false,
                                   0,
                                   true);
-    solidRadiator = new G4Box("solidRadiator", 0.4*m, 0.4*m, 0.01*m);
+
+    G4double xScint = 5*cm/2, yScint = 5*cm/2, zScint = 1*cm/2;
+    solidRadiator = new G4Box("solidRadiator", xScint, yScint, zScint);
     logicRadiator = new G4LogicalVolume(solidRadiator,
                                         Aerogel,
                                         "logicalRadiator");
     physRadiator = new G4PVPlacement(0,
-                                     G4ThreeVector(0., 0., 0.25*m),
+                                     G4ThreeVector(0., 0., 5*cm),
                                      logicRadiator,
                                      "physRadiator",
                                      logicWorld,
@@ -77,12 +79,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
                                      0,
                                      true);
 
-    solidDetector = new G4Box("solidDetector", xWorld/nRows, yWorld/nCols, 0.01*m);
+    solidDetector = new G4Box("solidDetector", xScint/nRows, yScint/nCols, 0.41*cm/2);
     logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
     for (G4int i = 0; i < nRows; ++i) {
         for (G4int j = 0; j < nCols; ++j) {
             physDetector = new G4PVPlacement(0,
-                                             G4ThreeVector(-0.5*m+(i+0.5)*m/nRows, -0.5*m+(j+0.5)*m/nCols, 0.49*m),
+                                             G4ThreeVector(xScint*(-1+(2*static_cast<double>(i)+1)/nRows),yScint*(-1+(2*static_cast<double>(j)+1)/nCols),(5.5+0.41/2)*cm),
                                              logicDetector,
                                              "physDetector",
                                              logicWorld,

@@ -8,15 +8,19 @@ MySensitiveDetector::~MySensitiveDetector() {}
 
 G4bool MySensitiveDetector::ProcessHits (G4Step *aStep, G4TouchableHistory *ROhist) {
     G4Track *track = aStep -> GetTrack();
+    if (track->GetDefinition() != G4OpticalPhoton::OpticalPhotonDefinition()) {
+        return false;
+    }
+    // G4cout << "Particle name: " << track->GetDefinition()->GetParticleName() << G4endl;
     track -> SetTrackStatus(fStopAndKill);
     G4double energy = track->GetTotalEnergy();  // or preStepPoint->GetKineticEnergy();
-    G4cout << "Detector energy: " << energy / eV << G4endl;
+    // G4cout << "Photon energy: " << energy / eV << G4endl;
 
     G4StepPoint *preStepPoint = aStep -> GetPreStepPoint();
     G4StepPoint *postStepPoint = aStep -> GetPostStepPoint();
 
     G4ThreeVector posPhoton = preStepPoint -> GetPosition();
-    G4cout << "Photon position: " << posPhoton << G4endl;
+    // G4cout << "Photon position: " << posPhoton << G4endl;
 
     const G4VTouchable *touchable = aStep -> GetPreStepPoint() -> GetTouchable();
     G4int copyNo = touchable -> GetCopyNumber();

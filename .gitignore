@@ -16,4 +16,4 @@ extended/*
 !extended/eventgenerator/
 !extended/optical
 *build
-mySim/build/
+mySim/build
