@@ -17,6 +17,11 @@ MyDetectorConstruction::~MyDetectorConstruction()
 {}
 
 void MyDetectorConstruction::DefineMaterials () {
+    H   = new G4Element("H", "H", 1., 1.01 * g / mole);
+    C   = new G4Element("C", "C", 6., 12.01 * g / mole);
+    elN = new G4Element("Nitrogen", "N", 7., 14.01*g/mole);
+    elO = new G4Element("Oxygen", "O", 8., 16.00*g/mole);
+
     G4NistManager *nist = G4NistManager::Instance();
 
     SiO2 = new G4Material("SiO2", 2.201*g/cm3, 2);
@@ -27,7 +32,7 @@ void MyDetectorConstruction::DefineMaterials () {
     H2O -> AddElement(nist -> FindOrBuildElement("H"), 2);
     H2O -> AddElement(nist -> FindOrBuildElement("O"), 1);
 
-    C = nist -> FindOrBuildElement("C");
+    // C = nist -> FindOrBuildElement("C");
 
     Aerogel = new G4Material("Aerogel", 0.200*g/cm3, 3);
     Aerogel -> AddMaterial(SiO2, 62.5*perCent);
@@ -46,9 +51,70 @@ void MyDetectorConstruction::DefineMaterials () {
     G4MaterialPropertiesTable *mptWorld = new G4MaterialPropertiesTable();
     mptWorld -> AddProperty("RINDEX", energy, rindexWorld, 2);
     worldMat -> SetMaterialPropertiesTable(mptWorld);
+
+    // Polystyrene (C8H8)n
+    polystyrene = new G4Material("Polystyrene", 1.05*g/cm3, 2);
+    polystyrene->AddElement(C, 8);
+    polystyrene->AddElement(H, 8);
+
+    // PPO: C15H11NO (approximate)
+    PPO = new G4Material("PPO", 1.06*g/cm3, 3);
+    PPO->AddElement(C, 15);
+    PPO->AddElement(H, 11);
+    PPO->AddElement(elN, 1);
+
+    // POPOP: C24H15N2O2 (approximate)
+    POPOP = new G4Material("POPOP", 1.20*g/cm3, 4);
+    POPOP->AddElement(C, 24);
+    POPOP->AddElement(H, 15);
+    POPOP->AddElement(elN, 2);
+    POPOP->AddElement(elO, 2);
+
+    // Create the final scintillator material (by weight fractions)
+    MINERVA_Scintillator = new G4Material("MINERVA_Scintillator", 1.05*g/cm3, 3);
+    MINERVA_Scintillator->AddMaterial(polystyrene, 98.97*perCent);
+    MINERVA_Scintillator->AddMaterial(PPO, 1.00*perCent);
+    MINERVA_Scintillator->AddMaterial(POPOP, 0.03*perCent);
 }
 
 G4VPhysicalVolume *MyDetectorConstruction::Construct() {
+    const G4int NUMENTRIES = 4;
+    G4double photonEnergy[NUMENTRIES] = {
+        2.48 * eV, // 500 nm
+        2.75 * eV, // 450 nm
+        2.95 * eV, // 420 nm - peak
+        3.10 * eV  // 400 nm
+    };
+
+    // Emission spectrum (normalized) – centered at 420 nm
+    G4double scintFast[NUMENTRIES] = {
+        0.10,  // 500 nm
+        0.60,  // 450 nm
+        1.00,  // 420 nm
+        0.60   // 400 nm
+    };
+
+    G4double scintSlow[NUMENTRIES] = {0.0, 0.0, 0.0, 0.0};  // no slow component
+    G4double refractiveIndex[NUMENTRIES] = {1.58, 1.58, 1.58, 1.58};
+    G4double absorptionLength[NUMENTRIES] = {
+        30.52*cm, 35.0*cm, 42.15*cm, 42.15*cm
+    };
+
+    G4MaterialPropertiesTable* MPT = new G4MaterialPropertiesTable();
+    MPT->AddProperty("RINDEX", photonEnergy, refractiveIndex, NUMENTRIES);
+    MPT->AddProperty("ABSLENGTH", photonEnergy, absorptionLength, NUMENTRIES);
+    MPT->AddProperty("SCINTILLATIONCOMPONENT1", photonEnergy, scintFast, NUMENTRIES);
+    MPT->AddProperty("SCINTILLATIONCOMPONENT2", photonEnergy, scintSlow, NUMENTRIES);
+
+    // Constants (typical values)
+    MPT->AddConstProperty("SCINTILLATIONYIELD", 73.4976 / MeV);
+    MPT->AddConstProperty("RESOLUTIONSCALE", 1.0);
+    MPT->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 2.8 * ns);
+    MPT->AddConstProperty("SCINTILLATIONTIMECONSTANT2", 0.0 * ns);
+    MPT->AddConstProperty("YIELDRATIO", 1.0, true);
+
+    MINERVA_Scintillator->SetMaterialPropertiesTable(MPT);
+
     G4double xWorld = 0.2*m, yWorld = 0.2*m, zWorld = 0.2*m;
     solidWorld = new G4Box("solidWorld", xWorld, yWorld, zWorld);
 
@@ -68,7 +134,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     G4double xScint = 5*cm/2, yScint = 5*cm/2, zScint = 1*cm/2;
     solidRadiator = new G4Box("solidRadiator", xScint, yScint, zScint);
     logicRadiator = new G4LogicalVolume(solidRadiator,
-                                        Aerogel,
+                                        MINERVA_Scintillator,
                                         "logicalRadiator");
     physRadiator = new G4PVPlacement(0,
                                      G4ThreeVector(0., 0., 5*cm),

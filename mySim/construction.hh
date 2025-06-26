@@ -31,8 +31,8 @@ private:
 
     G4GenericMessenger *fMessenger;
 
-    G4Material *SiO2, *H2O, *Aerogel, *worldMat;
-    G4Element *C;
+    G4Material *SiO2, *H2O, *Aerogel, *worldMat, *polystyrene, *PPO, *POPOP, *MINERVA_Scintillator;
+    G4Element *C, *H, *elN, *elO;
 
     void DefineMaterials();
 };
