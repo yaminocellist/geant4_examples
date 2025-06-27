@@ -4,8 +4,8 @@ MyPrimaryGenerator::MyPrimaryGenerator() {
     fParticleGun = new G4ParticleGun(1);
 
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-    G4String particleName = "gamma";
-    G4ParticleDefinition *particle = particleTable -> FindParticle("gamma");
+    G4String particleName = "mu-";
+    G4ParticleDefinition *particle = particleTable -> FindParticle("mu-");
 
     // G4ThreeVector pos(0., 0., 0.);
     // G4ThreeVector mom(0., 0., 1.);

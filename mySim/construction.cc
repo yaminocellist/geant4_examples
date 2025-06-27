@@ -107,7 +107,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     MPT->AddProperty("SCINTILLATIONCOMPONENT2", photonEnergy, scintSlow, NUMENTRIES);
 
     // Constants (typical values)
-    MPT->AddConstProperty("SCINTILLATIONYIELD", 73.4976 / MeV);
+    MPT->AddConstProperty("SCINTILLATIONYIELD", 7349.76 / MeV);
     MPT->AddConstProperty("RESOLUTIONSCALE", 1.0);
     MPT->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 2.8 * ns);
     MPT->AddConstProperty("SCINTILLATIONTIMECONSTANT2", 0.0 * ns);
