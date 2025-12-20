@@ -13,7 +13,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct() {
 
     G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
 
-    G4VPhysicalVolume *logicalWorld = new G4LogicalVolume(solidWorld, 
+    G4LogicalVolume *logicalWorld = new G4LogicalVolume(solidWorld, 
                                                           worldMat,
                                                           "logicalWorld");
 
