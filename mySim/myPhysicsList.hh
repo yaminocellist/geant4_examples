@@ -1,0 +1,13 @@
+#ifndef MYPHYSICSLIST_HH
+#define MYPHYSICSLIST_HH
+
+#include "G4VModularPhysicList.hh"
+#include "G4EmStandardPhysics.hh"
+#include "G4OpticalPhysics.hh"
+
+class MyPhysicsList : public G4VModularPhysicsList {
+    public:
+        MyPhysicsList();
+        ~MyPhysicsList();
+};
+#endif
