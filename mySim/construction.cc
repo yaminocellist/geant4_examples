@@ -9,7 +9,7 @@ MyDetectorConstruction::~MyDetectorConstruction()
 G4VPhysicalVolume *MyDetectorConstruction::Construct() {
     G4NistManager *nist = G4NistManager::Instance();
 
-    G4Material *worldMat = nist -> FindOrBuildMaterial("G4 Air");
+    G4Material *worldMat = nist -> FindOrBuildMaterial("G4_AIR");
 
     G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
 

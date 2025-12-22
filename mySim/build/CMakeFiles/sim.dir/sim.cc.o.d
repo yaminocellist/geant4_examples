@@ -630,4 +630,28 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistElementBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistMaterialBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Pow.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh
+ /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh \
+ /mnt/hgfs/ROG/github/geant4_examples/mySim/myPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VModularPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VPhysicsConstructor.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListHelper.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ThreadLocalSingleton.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Cache.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4CacheDetails.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUPLSplitter.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCutsTable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4MaterialCutsCouple.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCuts.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4MCCIndexConversionTable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4EmStandardPhysics.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4OpticalPhysics.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4OpticalParameters.hh \
+ /mnt/hgfs/ROG/github/geant4_examples/mySim/action.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserActionInitialization.hh \
+ /mnt/hgfs/ROG/github/geant4_examples/mySim/generator.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleGun.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VPrimaryGenerator.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleTable.hh

@@ -142,6 +142,30 @@ Simulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
 .PHONY : Simulation/fast
 
+action.o: action.cc.o
+.PHONY : action.o
+
+# target to build an object file
+action.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.o
+.PHONY : action.cc.o
+
+action.i: action.cc.i
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.i
+.PHONY : action.cc.i
+
+action.s: action.cc.s
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.s
+.PHONY : action.cc.s
+
 construction.o: construction.cc.o
 .PHONY : construction.o
 
@@ -165,6 +189,54 @@ construction.s: construction.cc.s
 construction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.s
 .PHONY : construction.cc.s
+
+generator.o: generator.cc.o
+.PHONY : generator.o
+
+# target to build an object file
+generator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.o
+.PHONY : generator.cc.o
+
+generator.i: generator.cc.i
+.PHONY : generator.i
+
+# target to preprocess a source file
+generator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.i
+.PHONY : generator.cc.i
+
+generator.s: generator.cc.s
+.PHONY : generator.s
+
+# target to generate assembly for a file
+generator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.s
+.PHONY : generator.cc.s
+
+myPhysicsList.o: myPhysicsList.cc.o
+.PHONY : myPhysicsList.o
+
+# target to build an object file
+myPhysicsList.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myPhysicsList.cc.o
+.PHONY : myPhysicsList.cc.o
+
+myPhysicsList.i: myPhysicsList.cc.i
+.PHONY : myPhysicsList.i
+
+# target to preprocess a source file
+myPhysicsList.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myPhysicsList.cc.i
+.PHONY : myPhysicsList.cc.i
+
+myPhysicsList.s: myPhysicsList.cc.s
+.PHONY : myPhysicsList.s
+
+# target to generate assembly for a file
+myPhysicsList.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myPhysicsList.cc.s
+.PHONY : myPhysicsList.cc.s
 
 sim.o: sim.cc.o
 .PHONY : sim.o
@@ -200,9 +272,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Simulation"
 	@echo "... sim"
+	@echo "... action.o"
+	@echo "... action.i"
+	@echo "... action.s"
 	@echo "... construction.o"
 	@echo "... construction.i"
 	@echo "... construction.s"
+	@echo "... generator.o"
+	@echo "... generator.i"
+	@echo "... generator.s"
+	@echo "... myPhysicsList.o"
+	@echo "... myPhysicsList.i"
+	@echo "... myPhysicsList.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"

@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,12 +71,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_80c9c/fast && /bin/gmake  -f CMakeFiles/cmTC_80c9c.dir/build.make CMakeFiles/cmTC_80c9c.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC'
-        Building C object CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o
-        /bin/cc   -v -o CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_bc8b7/fast && /bin/gmake  -f CMakeFiles/cmTC_bc8b7.dir/build.make CMakeFiles/cmTC_bc8b7.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL'
+        Building C object CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o
+        /bin/cc   -v -o CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -86,8 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80c9c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/cc0B3To7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc8b7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/ccSv8E7m.s
         GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
         	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -103,15 +103,15 @@ events:
         	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4414b45fdf7cee70037cf83f40d3c8f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/'
-         as -v --64 -o CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o /tmp/cc0B3To7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/'
+         as -v --64 -o CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o /tmp/ccSv8E7m.s
         GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_80c9c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80c9c.dir/link.txt --verbose=1
-        /bin/cc  -v CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -o cmTC_80c9c 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_bc8b7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc8b7.dir/link.txt --verbose=1
+        /bin/cc  -v CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -o cmTC_bc8b7 
         Using built-in specs.
         COLLECT_GCC=/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
@@ -124,10 +124,10 @@ events:
         gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80c9c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_80c9c.'
-         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj4pfyd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_80c9c /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80c9c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_80c9c.'
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc8b7' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_bc8b7.'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNR2j2y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bc8b7 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc8b7' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_bc8b7.'
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL'
         
       exitCode: 0
   -
@@ -159,12 +159,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC]
+        ignore line: [Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_80c9c/fast && /bin/gmake  -f CMakeFiles/cmTC_80c9c.dir/build.make CMakeFiles/cmTC_80c9c.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-OdCjiC']
-        ignore line: [Building C object CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_bc8b7/fast && /bin/gmake  -f CMakeFiles/cmTC_bc8b7.dir/build.make CMakeFiles/cmTC_bc8b7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-UaHHNL']
+        ignore line: [Building C object CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -174,8 +174,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80c9c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/cc0B3To7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc8b7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64-v2 -version -o /tmp/ccSv8E7m.s]
         ignore line: [GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -191,15 +191,15 @@ events:
         ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4414b45fdf7cee70037cf83f40d3c8f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o /tmp/cc0B3To7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o /tmp/ccSv8E7m.s]
         ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_80c9c]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80c9c.dir/link.txt --verbose=1]
-        ignore line: [/bin/cc  -v CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -o cmTC_80c9c ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_bc8b7]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc8b7.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc  -v CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -o cmTC_bc8b7 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
@@ -212,13 +212,13 @@ events:
         ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_80c9c' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_80c9c.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj4pfyd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_80c9c /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc8b7' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_bc8b7.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNR2j2y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bc8b7 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccj4pfyd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNR2j2y.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -233,7 +233,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_80c9c] ==> ignore
+          arg [cmTC_bc8b7] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
@@ -242,7 +242,7 @@ events:
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-          arg [CMakeFiles/cmTC_80c9c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_bc8b7.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -279,8 +279,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -289,12 +289,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_0b1d2/fast && /bin/gmake  -f CMakeFiles/cmTC_0b1d2.dir/build.make CMakeFiles/cmTC_0b1d2.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL'
-        Building CXX object CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o
-        /bin/c++   -v -o CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_5742d/fast && /bin/gmake  -f CMakeFiles/cmTC_5742d.dir/build.make CMakeFiles/cmTC_5742d.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr'
+        Building CXX object CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o
+        /bin/c++   -v -o CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -304,8 +304,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b1d2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/ccs3S8PY.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5742d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/ccYEy6Yx.s
         GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
         	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -324,15 +324,15 @@ events:
         	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5), GMP version 6.2.0, MPFR version 4.1.0-p9, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: e93254d940b36bb677eb536fa6c50158
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/'
-         as -v --64 -o CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccs3S8PY.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYEy6Yx.s
         GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_0b1d2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b1d2.dir/link.txt --verbose=1
-        /bin/c++  -v CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b1d2 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5742d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5742d.dir/link.txt --verbose=1
+        /bin/c++  -v CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5742d 
         Using built-in specs.
         COLLECT_GCC=/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
@@ -345,10 +345,10 @@ events:
         gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b1d2' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_0b1d2.'
-         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUJBlE5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b1d2 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b1d2' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_0b1d2.'
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5742d' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_5742d.'
+         /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIfdfp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5742d /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5742d' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_5742d.'
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr'
         
       exitCode: 0
   -
@@ -386,12 +386,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL]
+        ignore line: [Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_0b1d2/fast && /bin/gmake  -f CMakeFiles/cmTC_0b1d2.dir/build.make CMakeFiles/cmTC_0b1d2.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-ZIG9dL']
-        ignore line: [Building CXX object CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_5742d/fast && /bin/gmake  -f CMakeFiles/cmTC_5742d.dir/build.make CMakeFiles/cmTC_5742d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-zosEbr']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -401,8 +401,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b1d2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/ccs3S8PY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5742d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64-v2 -version -o /tmp/ccYEy6Yx.s]
         ignore line: [GNU C++17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -421,15 +421,15 @@ events:
         ignore line: [	compiled by GNU C version 11.5.0 20240719 (Red Hat 11.5.0-5)  GMP version 6.2.0  MPFR version 4.1.0-p9  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: e93254d940b36bb677eb536fa6c50158]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccs3S8PY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYEy6Yx.s]
         ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-63.el9]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_0b1d2]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b1d2.dir/link.txt --verbose=1]
-        ignore line: [/bin/c++  -v CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b1d2 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5742d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5742d.dir/link.txt --verbose=1]
+        ignore line: [/bin/c++  -v CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5742d ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
@@ -442,13 +442,13 @@ events:
         ignore line: [gcc version 11.5.0 20240719 (Red Hat 11.5.0-5) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b1d2' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_0b1d2.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUJBlE5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b1d2 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5742d' '-shared-libgcc' '-mtune=generic' '-march=x86-64-v2' '-dumpdir' 'cmTC_5742d.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIfdfp1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5742d /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccUJBlE5.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccIfdfp1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -463,7 +463,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0b1d2] ==> ignore
+          arg [cmTC_5742d] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
@@ -472,7 +472,7 @@ events:
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-          arg [CMakeFiles/cmTC_0b1d2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5742d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -511,8 +511,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -522,16 +522,16 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_43027/fast && /bin/gmake  -f CMakeFiles/cmTC_43027.dir/build.make CMakeFiles/cmTC_43027.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y'
-        Building C object CMakeFiles/cmTC_43027.dir/src.c.o
-        /bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_43027.dir/src.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y/src.c
-        Linking C executable cmTC_43027
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43027.dir/link.txt --verbose=1
-        /bin/cc CMakeFiles/cmTC_43027.dir/src.c.o -o cmTC_43027 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Lw763Y'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_e3dba/fast && /bin/gmake  -f CMakeFiles/cmTC_e3dba.dir/build.make CMakeFiles/cmTC_e3dba.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze'
+        Building C object CMakeFiles/cmTC_e3dba.dir/src.c.o
+        /bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e3dba.dir/src.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze/src.c
+        Linking C executable cmTC_e3dba
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3dba.dir/link.txt --verbose=1
+        /bin/cc CMakeFiles/cmTC_e3dba.dir/src.c.o -o cmTC_e3dba 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-W1TLze'
         
       exitCode: 0
   -
@@ -550,8 +550,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -561,16 +561,16 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_67ca3/fast && /bin/gmake  -f CMakeFiles/cmTC_67ca3.dir/build.make CMakeFiles/cmTC_67ca3.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M'
-        Building CXX object CMakeFiles/cmTC_67ca3.dir/src.cxx.o
-        /bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_67ca3.dir/src.cxx.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M/src.cxx
-        Linking CXX executable cmTC_67ca3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ca3.dir/link.txt --verbose=1
-        /bin/c++ CMakeFiles/cmTC_67ca3.dir/src.cxx.o -o cmTC_67ca3 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-Bm8F9M'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_96b1a/fast && /bin/gmake  -f CMakeFiles/cmTC_96b1a.dir/build.make CMakeFiles/cmTC_96b1a.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll'
+        Building CXX object CMakeFiles/cmTC_96b1a.dir/src.cxx.o
+        /bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_96b1a.dir/src.cxx.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll/src.cxx
+        Linking CXX executable cmTC_96b1a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b1a.dir/link.txt --verbose=1
+        /bin/c++ CMakeFiles/cmTC_96b1a.dir/src.cxx.o -o cmTC_96b1a 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-MtX4ll'
         
       exitCode: 0
   -
@@ -584,8 +584,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -595,16 +595,16 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_f1ce7/fast && /bin/gmake  -f CMakeFiles/cmTC_f1ce7.dir/build.make CMakeFiles/cmTC_f1ce7.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt'
-        Building C object CMakeFiles/cmTC_f1ce7.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_f1ce7.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt/CheckFunctionExists.c
-        Linking C executable cmTC_f1ce7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ce7.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_f1ce7.dir/CheckFunctionExists.c.o -o cmTC_f1ce7  /usr/lib64/libX11.so /usr/lib64/libXext.so 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-H4vURt'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_d2c47/fast && /bin/gmake  -f CMakeFiles/cmTC_d2c47.dir/build.make CMakeFiles/cmTC_d2c47.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T'
+        Building C object CMakeFiles/cmTC_d2c47.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_d2c47.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T/CheckFunctionExists.c
+        Linking C executable cmTC_d2c47
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2c47.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_d2c47.dir/CheckFunctionExists.c.o -o cmTC_d2c47  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6Rp56T'
         
       exitCode: 0
   -
@@ -618,8 +618,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -629,16 +629,16 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_f9945/fast && /bin/gmake  -f CMakeFiles/cmTC_f9945.dir/build.make CMakeFiles/cmTC_f9945.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n'
-        Building C object CMakeFiles/cmTC_f9945.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_f9945.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n/CheckFunctionExists.c
-        Linking C executable cmTC_f9945
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9945.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_f9945.dir/CheckFunctionExists.c.o -o cmTC_f9945 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-cYqu0n'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_7a2a0/fast && /bin/gmake  -f CMakeFiles/cmTC_7a2a0.dir/build.make CMakeFiles/cmTC_7a2a0.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2'
+        Building C object CMakeFiles/cmTC_7a2a0.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_7a2a0.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2/CheckFunctionExists.c
+        Linking C executable cmTC_7a2a0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2a0.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7a2a0.dir/CheckFunctionExists.c.o -o cmTC_7a2a0 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-qsRhq2'
         
       exitCode: 0
   -
@@ -652,8 +652,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -663,16 +663,16 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_3cb5a/fast && /bin/gmake  -f CMakeFiles/cmTC_3cb5a.dir/build.make CMakeFiles/cmTC_3cb5a.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv'
-        Building C object CMakeFiles/cmTC_3cb5a.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_3cb5a.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv/CheckFunctionExists.c
-        Linking C executable cmTC_3cb5a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb5a.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_3cb5a.dir/CheckFunctionExists.c.o -o cmTC_3cb5a 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-mdp0Dv'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_8c8b8/fast && /bin/gmake  -f CMakeFiles/cmTC_8c8b8.dir/build.make CMakeFiles/cmTC_8c8b8.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV'
+        Building C object CMakeFiles/cmTC_8c8b8.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_8c8b8.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV/CheckFunctionExists.c
+        Linking C executable cmTC_8c8b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8b8.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_8c8b8.dir/CheckFunctionExists.c.o -o cmTC_8c8b8 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-BLGbaV'
         
       exitCode: 0
   -
@@ -686,8 +686,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -697,16 +697,16 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_b9576/fast && /bin/gmake  -f CMakeFiles/cmTC_b9576.dir/build.make CMakeFiles/cmTC_b9576.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO'
-        Building C object CMakeFiles/cmTC_b9576.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_b9576.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO/CheckFunctionExists.c
-        Linking C executable cmTC_b9576
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9576.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_b9576.dir/CheckFunctionExists.c.o -o cmTC_b9576 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-f9APzO'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_603e5/fast && /bin/gmake  -f CMakeFiles/cmTC_603e5.dir/build.make CMakeFiles/cmTC_603e5.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7'
+        Building C object CMakeFiles/cmTC_603e5.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_603e5.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7/CheckFunctionExists.c
+        Linking C executable cmTC_603e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_603e5.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_603e5.dir/CheckFunctionExists.c.o -o cmTC_603e5 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-bckxV7'
         
       exitCode: 0
   -
@@ -720,8 +720,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -731,16 +731,16 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_5fb9c/fast && /bin/gmake  -f CMakeFiles/cmTC_5fb9c.dir/build.make CMakeFiles/cmTC_5fb9c.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl'
-        Building C object CMakeFiles/cmTC_5fb9c.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_5fb9c.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl/CheckFunctionExists.c
-        Linking C executable cmTC_5fb9c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb9c.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_5fb9c.dir/CheckFunctionExists.c.o -o cmTC_5fb9c 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-lBzVjl'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_e7a56/fast && /bin/gmake  -f CMakeFiles/cmTC_e7a56.dir/build.make CMakeFiles/cmTC_e7a56.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4'
+        Building C object CMakeFiles/cmTC_e7a56.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_e7a56.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4/CheckFunctionExists.c
+        Linking C executable cmTC_e7a56
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7a56.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_e7a56.dir/CheckFunctionExists.c.o -o cmTC_e7a56 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-rOYVW4'
         
       exitCode: 0
   -
@@ -754,8 +754,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY"
-      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY"
+      source: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn"
+      binary: "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -765,16 +765,16 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY
+        Change Dir: /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_9b9fd/fast && /bin/gmake  -f CMakeFiles/cmTC_9b9fd.dir/build.make CMakeFiles/cmTC_9b9fd.dir/build
-        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY'
-        Building C object CMakeFiles/cmTC_9b9fd.dir/CheckFunctionExists.c.o
-        /bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_9b9fd.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY/CheckFunctionExists.c
-        Linking C executable cmTC_9b9fd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b9fd.dir/link.txt --verbose=1
-        /bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_9b9fd.dir/CheckFunctionExists.c.o -o cmTC_9b9fd  -lICE 
-        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-6EACZY'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_8744f/fast && /bin/gmake  -f CMakeFiles/cmTC_8744f.dir/build.make CMakeFiles/cmTC_8744f.dir/build
+        gmake[1]: Entering directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn'
+        Building C object CMakeFiles/cmTC_8744f.dir/CheckFunctionExists.c.o
+        /bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_8744f.dir/CheckFunctionExists.c.o -c /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn/CheckFunctionExists.c
+        Linking C executable cmTC_8744f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8744f.dir/link.txt --verbose=1
+        /bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_8744f.dir/CheckFunctionExists.c.o -o cmTC_8744f  -lICE 
+        gmake[1]: Leaving directory '/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/CMakeScratch/TryCompile-jOcLAn'
         
       exitCode: 0
 ...
