@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim
+CMAKE_SOURCE_DIR = /home/local1/geant4_examples/mySim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim/build
+CMAKE_BINARY_DIR = /home/local1/geant4_examples/mySim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles /mnt/hgfs/ROG/github/geant4_examples/mySim/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles /home/local1/geant4_examples/mySim/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim
+CMAKE_SOURCE_DIR = /home/local1/geant4_examples/mySim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim/build
+CMAKE_BINARY_DIR = /home/local1/geant4_examples/mySim/build
 
 # Utility rule file for Simulation.
 
@@ -81,6 +81,6 @@ CMakeFiles/Simulation.dir/clean:
 .PHONY : CMakeFiles/Simulation.dir/clean
 
 CMakeFiles/Simulation.dir/depend:
-	cd /mnt/hgfs/ROG/github/geant4_examples/mySim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/ROG/github/geant4_examples/mySim /mnt/hgfs/ROG/github/geant4_examples/mySim /mnt/hgfs/ROG/github/geant4_examples/mySim/build /mnt/hgfs/ROG/github/geant4_examples/mySim/build /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/local1/geant4_examples/mySim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/local1/geant4_examples/mySim /home/local1/geant4_examples/mySim /home/local1/geant4_examples/mySim/build /home/local1/geant4_examples/mySim/build /home/local1/geant4_examples/mySim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Simulation.dir/depend
 

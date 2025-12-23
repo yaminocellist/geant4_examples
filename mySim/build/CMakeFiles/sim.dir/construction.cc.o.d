@@ -1,7 +1,7 @@
 CMakeFiles/sim.dir/construction.cc.o: \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/construction.cc \
+ /home/local1/geant4_examples/mySim/construction.cc \
  /usr/include/stdc-predef.h \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/construction.hh \
+ /home/local1/geant4_examples/mySim/construction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4SystemOfUnits.hh \
  /usr/local/clhep/2.4.7.1/include/CLHEP/Units/SystemOfUnits.h \
  /usr/local/clhep/2.4.7.1/include/CLHEP/Units/defs.h \

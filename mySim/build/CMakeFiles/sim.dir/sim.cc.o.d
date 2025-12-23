@@ -1,5 +1,4 @@
-CMakeFiles/sim.dir/sim.cc.o: \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/sim.cc \
+CMakeFiles/sim.dir/sim.cc.o: /home/local1/geant4_examples/mySim/sim.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -618,7 +617,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4VisManager.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4UIExecutive.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VUIshell.hh \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/construction.hh \
+ /home/local1/geant4_examples/mySim/construction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4SystemOfUnits.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4LogicalVolume.hh \
@@ -631,7 +630,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistMaterialBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Pow.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/myPhysicsList.hh \
+ /home/local1/geant4_examples/mySim/myPhysicsList.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VModularPhysicsList.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VPhysicsConstructor.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListHelper.hh \
@@ -648,9 +647,9 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4EmStandardPhysics.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4OpticalPhysics.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4OpticalParameters.hh \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/action.hh \
+ /home/local1/geant4_examples/mySim/action.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VUserActionInitialization.hh \
- /mnt/hgfs/ROG/github/geant4_examples/mySim/generator.hh \
+ /home/local1/geant4_examples/mySim/generator.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4ParticleGun.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VPrimaryGenerator.hh \

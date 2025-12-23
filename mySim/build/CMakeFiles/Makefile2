@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim
+CMAKE_SOURCE_DIR = /home/local1/geant4_examples/mySim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/ROG/github/geant4_examples/mySim/build
+CMAKE_BINARY_DIR = /home/local1/geant4_examples/mySim/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/Simulation.dir/clean
 CMakeFiles/sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/local1/geant4_examples/mySim/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sim"
 .PHONY : CMakeFiles/sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles 0
 .PHONY : CMakeFiles/sim.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/sim.dir/clean:
 CMakeFiles/Simulation.dir/all: CMakeFiles/sim.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles --progress-num= "Built target Simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/local1/geant4_examples/mySim/build/CMakeFiles --progress-num= "Built target Simulation"
 .PHONY : CMakeFiles/Simulation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Simulation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Simulation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/ROG/github/geant4_examples/mySim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/local1/geant4_examples/mySim/build/CMakeFiles 0
 .PHONY : CMakeFiles/Simulation.dir/rule
 
 # Convenience name for target.

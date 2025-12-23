@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/ROG/github/geant4_examples/mySim
+# Install script for directory: /home/local1/geant4_examples/mySim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/hgfs/ROG/github/geant4_examples/mySim/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/local1/geant4_examples/mySim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
