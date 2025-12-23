@@ -31,6 +31,7 @@ int main(int argc, char** argv) {
     UImanager -> ApplyCommand("/vis/drawVolume");
     UImanager -> ApplyCommand("/vis/scene/add/trajectories smooth");
     UImanager -> ApplyCommand("/vis/viewer/set/autoRefresh true");
+    UImanager -> AppleCommand("/vis/scene/endOfEventAction accumulate");
 
     ui -> SessionStart();
 
