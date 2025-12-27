@@ -318,4 +318,54 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistElementBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistMaterialBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Pow.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh
+ /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh \
+ /home/local1/geant4_examples/mySim/detector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VSensitiveDetector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4CollectionNameVector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4HCofThisEvent.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Allocator.hh \
+ /usr/include/c++/11/cstddef \
+ /usr/local/geant4.11.3.2/include/Geant4/G4AllocatorPool.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VHitsCollection.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Step.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4StepPoint.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SteppingControl.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4StepStatus.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4TouchableHandle.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VTouchable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4TouchableHistory.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationHistory.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4AffineTransform.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4AffineTransform.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationLevel.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationLevelRep.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationLevelRep.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationLevel.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationHistoryPool.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4NavigationHistory.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4LogicalVolume.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4TouchableHistory.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ReferenceCountedHandle.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4StepPoint.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4TrackVector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Step.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Track.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/trkdefs.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4DynamicParticle.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ElectronOccupancy.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/pwdefs.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4LorentzVector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleDefinition.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/11/stdlib.h \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleDefinition.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleMomentum.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4DynamicParticle.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4TrackStatus.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserTrackInformation.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsModelCatalog.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Track.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VHit.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VReadOutGeometry.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SensitiveVolumeList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VSDFilter.hh

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/local1/geant4_examples/mySim/action.cc" "CMakeFiles/sim.dir/action.cc.o" "gcc" "CMakeFiles/sim.dir/action.cc.o.d"
   "/home/local1/geant4_examples/mySim/construction.cc" "CMakeFiles/sim.dir/construction.cc.o" "gcc" "CMakeFiles/sim.dir/construction.cc.o.d"
+  "/home/local1/geant4_examples/mySim/detector.cc" "CMakeFiles/sim.dir/detector.cc.o" "gcc" "CMakeFiles/sim.dir/detector.cc.o.d"
   "/home/local1/geant4_examples/mySim/generator.cc" "CMakeFiles/sim.dir/generator.cc.o" "gcc" "CMakeFiles/sim.dir/generator.cc.o.d"
   "/home/local1/geant4_examples/mySim/myPhysicsList.cc" "CMakeFiles/sim.dir/myPhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/myPhysicsList.cc.o.d"
   "/home/local1/geant4_examples/mySim/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"

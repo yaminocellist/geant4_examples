@@ -26,8 +26,11 @@ int main(int argc, char** argv) {
 
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
 
+    // UImanager -> ApplyCommand("/vis/viewer/set/numberOfCloudPoints 50000");
+    // UImanager -> ApplyCommand("/vis/scene/activateModel G4PhysicalVolumeModel false");
     UImanager -> ApplyCommand("/vis/open OGL");
     UImanager -> ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+    // UImanager -> ApplyCommand("/vis/viewer/set/depth 1");
     UImanager -> ApplyCommand("/vis/drawVolume");
     UImanager -> ApplyCommand("/vis/scene/add/trajectories smooth");
     UImanager -> ApplyCommand("/vis/viewer/set/autoRefresh true");
