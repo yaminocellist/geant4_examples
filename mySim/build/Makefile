@@ -262,6 +262,30 @@ myPhysicsList.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myPhysicsList.cc.s
 .PHONY : myPhysicsList.cc.s
 
+myRunAction.o: myRunAction.cc.o
+.PHONY : myRunAction.o
+
+# target to build an object file
+myRunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myRunAction.cc.o
+.PHONY : myRunAction.cc.o
+
+myRunAction.i: myRunAction.cc.i
+.PHONY : myRunAction.i
+
+# target to preprocess a source file
+myRunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myRunAction.cc.i
+.PHONY : myRunAction.cc.i
+
+myRunAction.s: myRunAction.cc.s
+.PHONY : myRunAction.s
+
+# target to generate assembly for a file
+myRunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/myRunAction.cc.s
+.PHONY : myRunAction.cc.s
+
 sim.o: sim.cc.o
 .PHONY : sim.o
 
@@ -311,6 +335,9 @@ help:
 	@echo "... myPhysicsList.o"
 	@echo "... myPhysicsList.i"
 	@echo "... myPhysicsList.s"
+	@echo "... myRunAction.o"
+	@echo "... myRunAction.i"
+	@echo "... myRunAction.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
