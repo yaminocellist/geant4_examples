@@ -636,32 +636,6 @@ CMakeFiles/sim.dir/sim.cc.o: /home/local1/geant4_examples/mySim/sim.cc \
  /usr/local/geant4.11.3.2/include/Geant4/G4VReadOutGeometry.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4SensitiveVolumeList.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VSDFilter.hh \
- /home/local1/geant4_examples/mySim/myPhysicsList.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VModularPhysicsList.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VPhysicsConstructor.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListHelper.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListOrderingParameter.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ThreadLocalSingleton.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4Cache.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4CacheDetails.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VUPLSplitter.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VUserPhysicsList.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCutsTable.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4MaterialCutsCouple.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCuts.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4MCCIndexConversionTable.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4EmStandardPhysics.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4OpticalPhysics.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4OpticalParameters.hh \
- /home/local1/geant4_examples/mySim/action.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VUserActionInitialization.hh \
- /home/local1/geant4_examples/mySim/generator.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ParticleGun.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4VPrimaryGenerator.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ParticleTable.hh \
- /home/local1/geant4_examples/mySim/myRunAction.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4UserRunAction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4AnalysisManager.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericAnalysisManager.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -722,4 +696,30 @@ CMakeFiles/sim.dir/sim.cc.o: /home/local1/geant4_examples/mySim/sim.cc \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericAnalysisManager.icc \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericFileManager.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericFileManager.icc \
+ /home/local1/geant4_examples/mySim/myPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VModularPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VPhysicsConstructor.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListHelper.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ThreadLocalSingleton.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4Cache.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4CacheDetails.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUPLSplitter.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserPhysicsList.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCutsTable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4MaterialCutsCouple.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ProductionCuts.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4MCCIndexConversionTable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4EmStandardPhysics.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4OpticalPhysics.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4OpticalParameters.hh \
+ /home/local1/geant4_examples/mySim/action.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserActionInitialization.hh \
+ /home/local1/geant4_examples/mySim/generator.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleGun.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VPrimaryGenerator.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ParticleTable.hh \
+ /home/local1/geant4_examples/mySim/myRunAction.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4UserRunAction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Run.hh

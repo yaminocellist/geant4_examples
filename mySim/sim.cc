@@ -37,6 +37,11 @@ int main(int argc, char** argv) {
     UImanager -> ApplyCommand("/vis/scene/endOfEventAction accumulate");
 
     ui -> SessionStart();
+    // --- CLEANUP START ---
+    delete ui;          // Delete UI first
+    delete visManager;  // Delete VisManager second
+    delete runManager;  // Delete RunManager last - this triggers geometry cleanup
+    // --- CLEANUP END ---
 
     return 0;
 }

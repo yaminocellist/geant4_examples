@@ -1,16 +1,23 @@
 #include "myRunAction.hh"
 
-MyRunAction::MyRunAction() {}
+MyRunAction::MyRunAction() {
+    G4AnalysisManager *man = G4AnalysisManager::Instance();
+
+    man -> CreateNtuple("Hits", "Hits");
+    man -> CreateNtupleDColumn("fX");
+    man -> CreateNtupleDColumn("fY");
+    man -> CreateNtupleDColumn("fZ");
+    man -> CreateNtupleIColumn("fEvent");
+    // man -> CreateNtupleDColumn("fEnergy");
+    man -> FinishNtuple(0);
+}
 
 MyRunAction::~MyRunAction() {}
 
 void MyRunAction::BeginOfRunAction(const G4Run*) {
     G4AnalysisManager *man = G4AnalysisManager::Instance();
-
+    
     man -> OpenFile("output.root");
-    man -> CreateNtuple("Hits", "hits");
-    man -> CreateNtupleIColumn("fEvent");
-    man -> FinishNtuple(0);
 }
 
 void MyRunAction::EndOfRunAction(const G4Run*) {
@@ -18,4 +25,5 @@ void MyRunAction::EndOfRunAction(const G4Run*) {
 
     man -> Write();
     man -> CloseFile();
+    G4cout << "Root File generated." << G4endl;
 }
