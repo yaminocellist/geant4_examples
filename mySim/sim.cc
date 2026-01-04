@@ -19,24 +19,30 @@ int main(int argc, char** argv) {
 
     runManager -> Initialize();
 
-    G4UIExecutive *ui = new G4UIExecutive(argc, argv);
+    G4UIExecutive *ui = 0;
+
+    if (argc == 1) {
+        ui = new G4UIExecutive(argc, argv);
+    }
 
     G4VisManager *visManager = new G4VisExecutive();
     visManager -> Initialize();
 
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
 
+    if (ui) {
     // UImanager -> ApplyCommand("/vis/viewer/set/numberOfCloudPoints 50000");
     // UImanager -> ApplyCommand("/vis/scene/activateModel G4PhysicalVolumeModel false");
-    UImanager -> ApplyCommand("/vis/open OGL");
-    UImanager -> ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
     // UImanager -> ApplyCommand("/vis/viewer/set/depth 1");
-    UImanager -> ApplyCommand("/vis/drawVolume");
-    UImanager -> ApplyCommand("/vis/scene/add/trajectories smooth");
-    UImanager -> ApplyCommand("/vis/viewer/set/autoRefresh true");
-    UImanager -> ApplyCommand("/vis/scene/endOfEventAction accumulate");
+        UImanager -> ApplyCommand("/control/execute vis.mac");
 
-    ui -> SessionStart();
+        ui -> SessionStart();
+    } else {
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        UImanager -> ApplyCommand(command + fileName);
+    }
+                
     // --- CLEANUP START ---
     delete ui;          // Delete UI first
     delete visManager;  // Delete VisManager second
