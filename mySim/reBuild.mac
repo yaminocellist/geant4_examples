@@ -1,0 +1,6 @@
+/vis/disable
+/detector/nCols 16
+/detector/nRows 16
+/run/reinitializeGeometry
+/vis/enable
+/vis/viewer/refresh

@@ -16,3 +16,4 @@ extended/*
 !extended/eventgenerator/
 !extended/optical
 mySim/build
+examples

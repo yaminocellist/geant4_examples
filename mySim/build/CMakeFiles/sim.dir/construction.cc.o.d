@@ -319,6 +319,14 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4NistMaterialBuilder.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Pow.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4Exp.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4GenericMessenger.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4AnyMethod.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4AnyType.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4UIcommand.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ApplicationState.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4UIparameter.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4UImessenger.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4UIdirectory.hh \
  /home/local1/geant4_examples/mySim/detector.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4VSensitiveDetector.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4CollectionNameVector.hh \
@@ -503,11 +511,6 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4VSteppingVerbose.hh \
  /usr/local/geant4.11.3.2/include/Geant4/trkgdefs.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4TrackingMessenger.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4UImessenger.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4UIdirectory.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4UIcommand.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4ApplicationState.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4UIparameter.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4UserTrackingAction.hh \
  /usr/local/geant4.11.3.2/include/Geant4/G4RunManagerKernel.hh \
  /usr/local/geant4.11.3.2/include/Geant4/rundefs.hh \
@@ -572,4 +575,18 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /usr/local/geant4.11.3.2/include/Geant4/G4ToolsAnalysisManager.icc \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericAnalysisManager.icc \
  /usr/local/geant4.11.3.2/include/Geant4/G4GenericFileManager.hh \
- /usr/local/geant4.11.3.2/include/Geant4/G4GenericFileManager.icc
+ /usr/local/geant4.11.3.2/include/Geant4/G4GenericFileManager.icc \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SDManager.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4HCtable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SDStructure.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VSensitiveDetector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4GeometryManager.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SmartVoxelStat.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4PhysicalVolumeStore.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VStoreNotifier.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4VNotifier.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4LogicalVolumeStore.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4SolidStore.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4MaterialPropertiesTable.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ThreeVector.hh \
+ /usr/local/geant4.11.3.2/include/Geant4/G4ios.hh
