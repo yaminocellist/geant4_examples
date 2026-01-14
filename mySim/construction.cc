@@ -10,7 +10,7 @@
 #include "G4ios.hh"
 
 MyDetectorConstruction::MyDetectorConstruction()
-: nCols(100), nRows(100)
+: nCols(16), nRows(16)
 {
     fMessenger = new G4GenericMessenger(this, "/detector/", "Detector control");
 

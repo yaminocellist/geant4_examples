@@ -651,6 +651,21 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/yaminocellist/miniforge3/envs/physics/lib/gcc/aarch64-conda-linux-gnu/14.3.0/include/c++/bits/deque.tcc \
  /home/yaminocellist/miniforge3/envs/physics/lib/gcc/aarch64-conda-linux-gnu/14.3.0/include/c++/bits/stl_queue.h \
  /opt/geant4-11.3.1/include/Geant4/G4RunManager.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VModularPhysicsList.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VPhysicsConstructor.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4PhysicsListHelper.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4ThreadLocalSingleton.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4Cache.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4CacheDetails.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VUPLSplitter.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VUserPhysicsList.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4ProductionCutsTable.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4MaterialCutsCouple.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4ProductionCuts.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4MCCIndexConversionTable.hh \
+ /opt/geant4-11.3.1/include/Geant4/QGSP_BERT.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VModularPhysicsList.hh \
  /home/yaminocellist/github/geant4_examples/mySim/construction.hh \
  /opt/geant4-11.3.1/include/Geant4/G4SystemOfUnits.hh \
  /opt/geant4-11.3.1/include/Geant4/G4VUserDetectorConstruction.hh \
@@ -736,22 +751,15 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /opt/geant4-11.3.1/include/Geant4/G4PhysicsOrderedFreeVector.hh \
  /opt/geant4-11.3.1/include/Geant4/Randomize.hh \
  /home/yaminocellist/github/geant4_examples/mySim/myPhysicsList.hh \
- /opt/geant4-11.3.1/include/Geant4/G4VModularPhysicsList.hh \
- /opt/geant4-11.3.1/include/Geant4/G4VPhysicsConstructor.hh \
- /opt/geant4-11.3.1/include/Geant4/G4PhysicsListHelper.hh \
- /opt/geant4-11.3.1/include/Geant4/G4PhysicsListOrderingParameter.hh \
- /opt/geant4-11.3.1/include/Geant4/G4ThreadLocalSingleton.hh \
- /opt/geant4-11.3.1/include/Geant4/G4Cache.hh \
- /opt/geant4-11.3.1/include/Geant4/G4CacheDetails.hh \
- /opt/geant4-11.3.1/include/Geant4/G4VUPLSplitter.hh \
- /opt/geant4-11.3.1/include/Geant4/G4VUserPhysicsList.hh \
- /opt/geant4-11.3.1/include/Geant4/G4ProductionCutsTable.hh \
- /opt/geant4-11.3.1/include/Geant4/G4MaterialCutsCouple.hh \
- /opt/geant4-11.3.1/include/Geant4/G4ProductionCuts.hh \
- /opt/geant4-11.3.1/include/Geant4/G4MCCIndexConversionTable.hh \
  /opt/geant4-11.3.1/include/Geant4/G4EmStandardPhysics.hh \
  /opt/geant4-11.3.1/include/Geant4/G4OpticalPhysics.hh \
  /opt/geant4-11.3.1/include/Geant4/G4OpticalParameters.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4DecayPhysics.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4Decay.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4VRestDiscreteProcess.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4ParticleChangeForDecay.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4DecayProcessType.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4RadioactiveDecayPhysics.hh \
  /home/yaminocellist/github/geant4_examples/mySim/action.hh \
  /opt/geant4-11.3.1/include/Geant4/G4VUserActionInitialization.hh \
  /home/yaminocellist/github/geant4_examples/mySim/generator.hh \
@@ -759,6 +767,9 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /opt/geant4-11.3.1/include/Geant4/G4ParticleGun.hh \
  /opt/geant4-11.3.1/include/Geant4/G4VPrimaryGenerator.hh \
  /opt/geant4-11.3.1/include/Geant4/G4ParticleTable.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4Geantino.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4IonTable.hh \
+ /opt/geant4-11.3.1/include/Geant4/G4Ions.hh \
  /home/yaminocellist/github/geant4_examples/mySim/myRunAction.hh \
  /opt/geant4-11.3.1/include/Geant4/G4UserRunAction.hh \
  /opt/geant4-11.3.1/include/Geant4/G4Run.hh \
