@@ -18,6 +18,10 @@ MyRunAction::MyRunAction() {
     man -> CreateNtupleIColumn("fEvent");
     // man -> CreateNtupleDColumn("fEnergy");
     man -> FinishNtuple(1);
+
+    man -> CreateNtuple("Scoring", "Scoring");
+    man -> CreateNtupleDColumn("fEdep");
+    man -> FinishNtuple(2);
 }
 
 MyRunAction::~MyRunAction() {}

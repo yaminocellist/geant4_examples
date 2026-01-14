@@ -16,3 +16,8 @@ Some useful commands:
     /vis/viewer/set/viewpointThetaPhi 120 150
     /tracking/verbose 2
 ```
+
+Helpful to show geometry in Alma Linux 9:
+```bash
+    export LIBGL_ALWAYS_SOFTWARE=1
+```
