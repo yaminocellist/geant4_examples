@@ -3,4 +3,7 @@
 /detector/nRows 16
 /run/reinitializeGeometry
 /vis/enable
+/vis/drawVolume
 /vis/viewer/refresh
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
