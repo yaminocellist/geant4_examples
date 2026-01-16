@@ -5,6 +5,8 @@
 #include "G4RunManager.hh"
 #include "G4AnalysisManager.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4PhysicsOrderedFreeVector.hh"
+#include "Randomize.hh"
 
 class MySensitiveDetector : public G4VSensitiveDetector {
     public:
@@ -12,7 +14,7 @@ class MySensitiveDetector : public G4VSensitiveDetector {
         ~MySensitiveDetector();
     private:
         virtual G4bool ProcessHits(G4Step *, G4TouchableHistory *);
-        
+        G4PhysicsOrderedFreeVector *qEff;
 };
 
 #endif
